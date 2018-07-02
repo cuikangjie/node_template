@@ -1,0 +1,27 @@
+{
+  "name": "node_db",
+  "version": "1.0.0",
+  "description": "db",
+  "main": "index.js",
+  "repository": "https://cuikangjie@bitbucket.org/cuikangjie/node_db.git",
+  "author": "kin <cuikangjie_90h@126.com>",
+  "scripts": {
+    "dev": "babel-node ./tools/run.js",
+    "build": "babel-node ./tools/build.js -- --release"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "kin-toolkits": "^1.3.0",
+    "rimraf": "^2.6.2",
+    "signale": "^1.2.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
