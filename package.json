@@ -1,9 +1,9 @@
 {
-  "name": "node_db",
+  "name": "node_template",
   "version": "1.0.0",
-  "description": "db",
+  "description": "template",
   "main": "index.js",
-  "repository": "https://cuikangjie@bitbucket.org/cuikangjie/node_db.git",
+  "repository": "https://github.com/cuikangjie/node_template.git",
   "author": "kin <cuikangjie_90h@126.com>",
   "scripts": {
     "dev": "babel-node ./tools/run.js",
@@ -22,6 +22,7 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "kin-pm2-start": "^1.0.0"
   }
 }
